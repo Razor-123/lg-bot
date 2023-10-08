@@ -1,0 +1,84 @@
+/* Header */
+.phone {
+    margin: 50px auto;
+    width: 400px;
+    height: 80vh;
+    border: solid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #0c4a85;
+    height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .tvsicon {
+    border: solid;
+    border-radius: 50%;
+    margin:5px;
+  }
+  
+  .tvsCredit {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+  
+  .threedots {
+    padding-right: 10px;
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  
+  
+  /* body */
+  
+  .chatBody {
+    height: 100%;
+    overflow-y:auto;
+  
+  }
+  
+  .messageContainer {
+    padding: 7px 7px 3px 7px;
+    display: flex;
+  }
+  
+  .messageStyle {
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+    display:inline-block;
+    max-width: 80vw;
+    word-wrap: break-word;
+    padding: 15px;
+    border-radius: 7px;
+  }
+  
+  
+  /* footer */
+  
+  .footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+  .sendIconContainer {
+    padding: 0px;
+    color: #0c4a85;
+  }
